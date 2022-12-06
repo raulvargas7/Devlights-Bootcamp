@@ -151,7 +151,7 @@ c /= 11;
 
 /* ******************************************************************************************************* */
 
-const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
+const myStr = 'I am a "double quoted" string inside "double quotes".'; // Change this line
 
 /* ******************************************************************************************************* */
 
@@ -236,7 +236,16 @@ const myAdjective = "big";
 const myVerb = "ran";
 const myAdverb = "quickly";
 
-var wordBlanks = "My " + myNoun + " is " + myAdjective + " and " + myVerb + " very " + myAdverb + ".";// Change this line
+var wordBlanks =
+  "My " +
+  myNoun +
+  " is " +
+  myAdjective +
+  " and " +
+  myVerb +
+  " very " +
+  myAdverb +
+  "."; // Change this line
 
 /* ******************************************************************************************************* */
 
@@ -244,6 +253,9 @@ const myArray = ["Blink", 182];
 
 /* ******************************************************************************************************* */
 
-const myArray = [["Ginobili", 20], ["Messi", 10]];
+const myArray = [
+  ["Ginobili", 20],
+  ["Messi", 10],
+];
 
 /* ******************************************************************************************************* */
